@@ -1,9 +1,5 @@
 const app = new Vue({
 	el: '#app',
-	data: {
-		message: 'teste',
-		teste: []
-	},
 	methods: {
 		abreAndre: () => {
 			app.abre('andre');
